@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+</head>
+<body>
+<title>Platz anfragen · Longevity Retreat</title>
+<meta name="description" content="Unverbindlich einen Platz anfragen.">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+<a class="skip" href="#inhalt">Zum Inhalt</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html"><span class="mark"><img src="img/logo.svg" alt=""></span><span>Longevity Retreat <small>by Ron Perduss</small></span></a>
+  <nav class="nav" aria-label="Hauptnavigation"><a href="reisen.html">Reisen</a><a href="termine.html">Termine</a><a href="team.html">Team</a><a href="ueber-uns.html">Über uns</a><a href="fragen.html">Fragen</a><a class="cta" href="kontakt.html">Platz anfragen</a></nav>
+</div></header>
+<main id="inhalt">
+<section class="section pagehead"><div class="wrap">
+  <p class="label">Kontakt</p><h1>Platz anfragen.</h1>
+  <p class="lead">Sag uns, welche Reise dich interessiert. Die Anfrage ist unverbindlich. Wir melden uns persönlich und schicken dir alle Unterlagen.</p>
+</div></section>
+<section class="section flush"><div class="wrap two">
+  <form id="anfrage" novalidate>
+    <label for="f-name">Dein Name<input id="f-name" name="name" type="text" autocomplete="name" required></label>
+    <label for="f-mail">Deine E-Mail-Adresse<input id="f-mail" name="mail" type="email" autocomplete="email" required></label>
+    <label for="f-reise">Welche Reise?<select id="f-reise" name="reise"><option value="">Noch offen</option><option value="original">Das Original · Bali und Thailand</option><option value="bewegung">In Bewegung · Mallorca</option><option value="kueche">Die Longevity-Küche · Toskana</option><option value="neustart">Neustart · La Gomera</option><option value="mitte">Mitte des Lebens · Algarve</option><option value="essen">Besser essen · Südtirol</option><option value="schlaf">Schlaf verstehen · Allgäu</option><option value="atem">Sieben Tage Atem · Algarve oder Bali</option><option value="sardinien">Wo die Hundertjährigen leben · Sardinien</option><option value="fasten">Begleitet fasten · Mallorca oder Allgäu</option></select></label>
+    <label for="f-termin">Welcher Termin?<input id="f-termin" name="termin" type="text" placeholder="zum Beispiel Oktober 2027"></label>
+    <label for="f-pers">Wie viele Personen?<select id="f-pers" name="personen"><option>1</option><option>2</option><option>3 oder mehr</option></select></label>
+    <label for="f-text">Deine Nachricht<textarea id="f-text" name="text" rows="5"></textarea></label>
+    <p class="err" id="f-err" hidden>Bitte gib deinen Namen und eine gültige E-Mail-Adresse an.</p>
+    <button class="btn" type="submit">Anfrage vorbereiten</button>
+  </form>
+  <div class="contact-side">
+    <div class="out" id="out" hidden>
+      <p class="label">Deine Anfrage</p>
+      <pre id="out-text"></pre>
+      <p>Schick diesen Text an <b class="addr">ron@perduss.media</b>.</p>
+      <div class="actions"><button class="btn" type="button" id="copy">Text kopieren</button><a class="btn ghost" id="mailto" href="mailto:ron@perduss.media">E-Mail-Programm öffnen</a></div>
+      <p class="note" id="copied" hidden>Kopiert.</p>
+    </div>
+    <div class="direct"><p class="label">Direkt</p><p>Lieber gleich per Mail? Schreib an <b class="addr">ron@perduss.media</b>.</p><p class="note">Ron und das Team antworten persönlich, meist innerhalb von zwei Tagen.</p></div>
+  </div>
+</div></section></main>
+<footer class="foot"><div class="wrap">
+  <div><p class="brandline">Longevity Retreat by Ron Perduss</p><p>Reisen für gesundes Älterwerden, in kleinen Gruppen und mit Fachleuten.</p></div>
+  <div><p class="label">Reisen</p><a href="reise-original.html">Das Original</a><a href="reise-bewegung.html">In Bewegung</a><a href="reise-kueche.html">Die Longevity-Küche</a><a href="reise-neustart.html">Neustart</a><a href="reise-mitte.html">Mitte des Lebens</a><a href="reise-essen.html">Besser essen</a><a href="reise-schlaf.html">Schlaf verstehen</a></div>
+  <div><p class="label">Kontakt</p><p class="addr">ron@perduss.media</p><a href="kontakt.html">Anfrage schreiben</a><a href="https://www.instagram.com/longevity_retreat_asia/" rel="noopener">Instagram</a></div>
+  <div><p class="label">Rechtliches</p><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+  <p class="small">Unsere Reisen ersetzen keine ärztliche Beratung, keine Diagnose und keine Therapie. Die Fotos vom Original stammen von unserem Retreat auf Bali, die Fotos der Reiseziele von Envato Elements.</p>
+</div></footer>
+<script src="seite.js"></script>
+</body>
+</html>
